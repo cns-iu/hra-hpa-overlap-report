@@ -1,0 +1,4 @@
+pyoxigraph>=0.5
+rdflib>=7.0
+PyYAML>=6.0
+matplotlib>=3.7

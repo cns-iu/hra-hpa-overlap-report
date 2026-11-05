@@ -1,0 +1,72 @@
+channel,marker,ensembl,gene_symbol,hgnc_id,hgnc_symbol,hgnc_match,uniprot,gene_description,needs_review,note
+Beta-catenin,Beta-catenin,ENSG00000168036,CTNNB1,HGNC:2514,CTNNB1,symbol,P35222,catenin beta 1,false,
+CD11b,CD11b,ENSG00000169896,ITGAM,HGNC:6149,ITGAM,symbol,P11215,integrin subunit alpha M,false,
+CD11c,CD11c,ENSG00000140678,ITGAX,HGNC:6152,ITGAX,symbol,P20702,integrin subunit alpha X,false,
+CD138,CD138,ENSG00000115884,SDC1,HGNC:10658,SDC1,symbol,P18827,syndecan 1,false,
+CD16,CD16,ENSG00000203747|ENSG00000162747,FCGR3A|FCGR3B,HGNC:3619|HGNC:3620,FCGR3A|FCGR3B,symbol_multiple,P08637|O75015,Fc gamma receptor IIIa|Fc gamma receptor IIIb,true,CD16a and CD16b; most antibodies detect both
+CD163,CD163,ENSG00000177575,CD163,HGNC:1631,CD163,symbol,Q86VB7,CD163 molecule,false,
+CD20,CD20,ENSG00000156738,MS4A1,HGNC:7315,MS4A1,symbol,P11836,membrane spanning 4-domains A1,false,
+CD209,CD209,ENSG00000090659,CD209,HGNC:1641,CD209,symbol,Q9NNX6,CD209 molecule,false,
+CD3,CD3,ENSG00000198851|ENSG00000167286|ENSG00000160654,CD3E|CD3D|CD3G,HGNC:1674|HGNC:1673|HGNC:1675,CD3E|CD3D|CD3G,symbol_multiple,P07766|P04234|P09693,CD3 epsilon subunit of T-cell receptor complex|CD3 delta subunit of T-cell receptor complex|CD3 gamma subunit of T-cell receptor complex,true,CD3 complex; most antibodies target CD3E
+CD31,CD31,ENSG00000261371,PECAM1,HGNC:8823,PECAM1,symbol,P16284,platelet and endothelial cell adhesion molecule 1,false,
+CD4,CD4,ENSG00000010610,CD4,HGNC:1678,CD4,symbol,P01730,CD4 molecule,false,
+CD45,CD45,ENSG00000081237,PTPRC,HGNC:9666,PTPRC,symbol,P08575,protein tyrosine phosphatase receptor type C,false,
+CD45RO,CD45RO,ENSG00000081237,PTPRC,HGNC:9666,PTPRC,symbol,P08575,protein tyrosine phosphatase receptor type C,false,CD45RO isoform of PTPRC
+CD56,CD56,ENSG00000149294,NCAM1,HGNC:7656,NCAM1,symbol,P13591,neural cell adhesion molecule 1,false,
+CD63,CD63,ENSG00000135404,CD63,HGNC:1692,CD63,symbol,P08962,CD63 molecule,false,
+CD68,CD68,ENSG00000129226,CD68,HGNC:1693,CD68,symbol,P34810,CD68 molecule,false,
+CD8,CD8,ENSG00000153563|ENSG00000172116,CD8A|CD8B,HGNC:1706|HGNC:1707,CD8A|CD8B,symbol_multiple,P01732|P10966,CD8 subunit alpha|CD8 subunit beta,true,most CD8 antibodies target CD8A only
+EGFR,EGFR,ENSG00000146648,EGFR,HGNC:3236,EGFR,symbol,P00533,epidermal growth factor receptor,false,
+FoxP3,FoxP3,ENSG00000049768,FOXP3,HGNC:6106,FOXP3,symbol,Q9BZS1,forkhead box P3,false,
+HLA-Class-2,HLA-Class-2,ENSG00000204287|ENSG00000196126,HLA-DRA|HLA-DRB1,HGNC:4947|HGNC:4948,HLA-DRA|HLA-DRB1,symbol_multiple,P01903|P01911,"major histocompatibility complex, class II, DR alpha|major histocompatibility complex, class II, DR beta 1",true,MHC class II; HLA-DR only (HLA-DP/DQ and other DRB genes not listed)
+HLA-Class-1,HLA-Class-1,ENSG00000206503|ENSG00000234745|ENSG00000204525,HLA-A|HLA-B|HLA-C,HGNC:4931|HGNC:4932|HGNC:4933,HLA-A|HLA-B|HLA-C,symbol_multiple,P04439|P01889|P10321,"major histocompatibility complex, class I, A|major histocompatibility complex, class I, B|major histocompatibility complex, class I, C",true,MHC class I heavy chains; some pan-class-I antibodies bind B2M instead
+IDO,IDO,ENSG00000131203,IDO1,HGNC:6059,IDO1,symbol,P14902,"indoleamine 2,3-dioxygenase 1",false,
+CK17,CK17,ENSG00000128422,KRT17,HGNC:6427,KRT17,symbol,Q04695,keratin 17,false,
+CK6,CK6,ENSG00000205420|ENSG00000185479|ENSG00000170465,KRT6A|KRT6B|KRT6C,HGNC:6443|HGNC:6444|HGNC:20406,KRT6A|KRT6B|KRT6C,symbol_multiple,P02538|P04259|P48668,keratin 6A|keratin 6B|keratin 6C,true,antibodies typically cross-react with CK6 isoforms
+Ki67,Ki67,ENSG00000148773,MKI67,HGNC:7107,MKI67,symbol,P46013,marker of proliferation Ki-67,false,
+LAG3,LAG3,ENSG00000089692,LAG3,HGNC:6476,LAG3,symbol,P18627,lymphocyte activating 3,false,
+MPO,MPO,ENSG00000005381,MPO,HGNC:7218,MPO,symbol,P05164,myeloperoxidase,false,
+OX40,OX40,ENSG00000186827,TNFRSF4,HGNC:11918,TNFRSF4,symbol,P43489,TNF receptor superfamily member 4,false,
+PDL1,PDL1,ENSG00000120217,CD274,HGNC:17635,CD274,symbol,Q9NZQ7,CD274 molecule,false,
+PD1,PD1,ENSG00000188389,PDCD1,HGNC:8760,PDCD1,symbol,Q15116,programmed cell death 1,false,
+PanCK,PanCK,,,,,,,,true,"pan-cytokeratin antibody cocktail; gene set depends on clone (e.g. AE1/AE3 detects KRT1-8,10,14-16,19 per OMAPs), so left unmapped"
+SMA,SMA,ENSG00000107796,ACTA2,HGNC:130,ACTA2,symbol,P62736,"actin alpha 2, smooth muscle",false,
+Vimentin,Vimentin,ENSG00000026025,VIM,HGNC:12692,VIM,symbol,P08670,vimentin,false,
+p53,p53,ENSG00000141510,TP53,HGNC:11998,TP53,symbol,P04637,tumor protein p53,false,
+ADEFENSIN5,DEFA5,ENSG00000164816,DEFA5,HGNC:2764,DEFA5,symbol,Q01523,defensin alpha 5,false,
+ASMA,SMA,ENSG00000107796,ACTA2,HGNC:130,ACTA2,symbol,P62736,"actin alpha 2, smooth muscle",false,
+BCL2,Bcl-2,ENSG00000171791,BCL2,HGNC:990,BCL2,symbol,P10415,BCL2 apoptosis regulator,false,
+CD117,c-kit,ENSG00000157404,KIT,HGNC:6342,KIT,symbol,P10721,"KIT proto-oncogene, receptor tyrosine kinase",false,
+CD11C,CD11c,ENSG00000140678,ITGAX,HGNC:6152,ITGAX,symbol,P20702,integrin subunit alpha X,false,
+CD123,CD123,ENSG00000185291,IL3RA,HGNC:6012,IL3RA,symbol,P26951,interleukin 3 receptor subunit alpha,false,
+CD127,CD127,ENSG00000168685,IL7R,HGNC:6024,IL7R,symbol,P16871,interleukin 7 receptor,false,
+CD15,CD15,ENSG00000196371,FUT4,HGNC:4015,FUT4,symbol,P22083,fucosyltransferase 4,true,CD15 is the Lewis X carbohydrate epitope; FUT4 synthesizes it
+CD161,CD161,ENSG00000111796,KLRB1,HGNC:6373,KLRB1,symbol,Q12918,killer cell lectin like receptor B1,false,
+CD19,CD19,ENSG00000177455,CD19,HGNC:1633,CD19,symbol,P15391,CD19 molecule,false,
+CD206,CD206,ENSG00000260314,MRC1,HGNC:7228,MRC1,symbol,P22897,mannose receptor C-type 1,false,
+CD21,CD21,ENSG00000117322,CR2,HGNC:2336,CR2,symbol,P20023,complement C3d receptor 2,false,
+CD25,CD25,ENSG00000134460,IL2RA,HGNC:6008,IL2RA,symbol,P01589,interleukin 2 receptor subunit alpha,false,
+CD34,CD34,ENSG00000174059,CD34,HGNC:1662,CD34,symbol,P28906,CD34 molecule,false,
+CD36,CD36,ENSG00000135218,CD36,HGNC:1663,CD36,symbol,P16671,CD36 molecule (CD36 blood group),false,
+CD38,CD38,ENSG00000004468,CD38,HGNC:1667,CD38,symbol,P28907,CD38 molecule,false,
+CD44,CD44,ENSG00000026508,CD44,HGNC:1681,CD44,symbol,P16070,CD44 molecule (IN blood group),false,
+CD57,CD57,ENSG00000109956,B3GAT1,HGNC:921,B3GAT1,symbol,Q9P2W7,"beta-1,3-glucuronyltransferase 1",true,CD57 is the HNK-1 carbohydrate epitope; B3GAT1 synthesizes it
+CD66,CD66,ENSG00000079385|ENSG00000170956|ENSG00000105388|ENSG00000086548|ENSG00000124469,CEACAM1|CEACAM3|CEACAM5|CEACAM6|CEACAM8,HGNC:1814|HGNC:1815|HGNC:1817|HGNC:1818|HGNC:1820,CEACAM1|CEACAM3|CEACAM5|CEACAM6|CEACAM8,symbol_multiple,P13688|P40198|P06731|P40199|P31997,CEA cell adhesion molecule 1|CEA cell adhesion molecule 3|CEA cell adhesion molecule 5|CEA cell adhesion molecule 6|CEA cell adhesion molecule 8,true,CD66a-e (CEACAM family); antibody specificity unknown
+CD69,CD69,ENSG00000110848,CD69,HGNC:1694,CD69,symbol,Q07108,CD69 molecule,false,
+CD7,CD7,ENSG00000173762,CD7,HGNC:1695,CD7,symbol,P09564,CD7 molecule,false,
+CD90,CD90,ENSG00000154096,THY1,HGNC:11801,THY1,symbol,P04216,Thy-1 cell surface antigen,false,
+CK7,CK7,ENSG00000135480,KRT7,HGNC:6445,KRT7,symbol,P08729,keratin 7,false,
+COLLAGENIV,Col4,ENSG00000187498|ENSG00000134871,COL4A1|COL4A2,HGNC:2202|HGNC:2203,COL4A1|COL4A2,symbol_multiple,P02462|P08572,collagen type IV alpha 1 chain|collagen type IV alpha 2 chain,true,collagen IV; main alpha1/alpha2 chains listed
+CYTOKERATIN,PanCK,,,,,,,,true,"pan-cytokeratin antibody cocktail; gene set depends on clone (e.g. AE1/AE3 detects KRT1-8,10,14-16,19 per OMAPs), so left unmapped"
+FAP,FAP,ENSG00000078098,FAP,HGNC:3590,FAP,symbol,Q12884,fibroblast activation protein alpha,false,
+HLADR,HLA-Class-2,ENSG00000204287|ENSG00000196126,HLA-DRA|HLA-DRB1,HGNC:4947|HGNC:4948,HLA-DRA|HLA-DRB1,symbol_multiple,P01903|P01911,"major histocompatibility complex, class II, DR alpha|major histocompatibility complex, class II, DR beta 1",true,MHC class II; HLA-DR only (HLA-DP/DQ and other DRB genes not listed)
+ITLN1,Intelectin-1,ENSG00000179914,ITLN1,HGNC:18259,ITLN1,symbol,Q8WWA0,intelectin 1,false,
+KI67,Ki67,ENSG00000148773,MKI67,HGNC:7107,MKI67,symbol,P46013,marker of proliferation Ki-67,false,
+MUC1,MUC1,ENSG00000185499,MUC1,HGNC:7508,MUC1,symbol,P15941,"mucin 1, cell surface associated",false,
+MUC2,MUC2,ENSG00000198788,MUC2,HGNC:7512,MUC2,symbol,Q02817,"mucin 2, oligomeric mucus/gel-forming",false,
+NKG2G,NKG2D,ENSG00000213809,KLRK1,HGNC:18788,KLRK1,symbol,P26718,killer cell lectin like receptor K1,true,channel name NKG2G looks like a typo for NKG2D (as the YAML maps it); NKG2G is not a known gene/protein
+OLFM4,OLFM4,ENSG00000102837,OLFM4,HGNC:17190,OLFM4,symbol,Q6UX06,olfactomedin 4,false,
+PODOPLANIN,PDPN,ENSG00000162493,PDPN,HGNC:29602,PDPN,symbol,Q86YL7,podoplanin,false,
+SOX9,SOX9,ENSG00000125398,SOX9,HGNC:11204,SOX9,symbol,P48436,SRY-box transcription factor 9,false,
+SYNAPTOPHYSIN,Synaptophysin,ENSG00000102003,SYP,HGNC:11506,SYP,symbol,P08247,synaptophysin,false,
+VIMENTIN,Vimentin,ENSG00000026025,VIM,HGNC:12692,VIM,symbol,P08670,vimentin,false,

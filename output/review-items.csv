@@ -1,0 +1,292 @@
+source,category,item,hgnc_symbol,suggested_hgnc_symbol,row_count,example_record,note
+hpa,ensembl-mismatch,MKKS,MKKS,,2,ENSG00000285508,"HPA Ensembl ID not in HGNC; matched by symbol MKKS, whose HGNC Ensembl ID is ENSG00000125863"
+hpa,ensembl-mismatch,PINX1,PINX1,,1,ENSG00000258724,"HPA Ensembl ID not in HGNC; matched by symbol PINX1, whose HGNC Ensembl ID is ENSG00000254093"
+hpa,ensembl-mismatch,SIGLEC5,SIGLEC5,,1,ENSG00000268500,"HPA Ensembl ID not in HGNC; matched by symbol SIGLEC5, whose HGNC Ensembl ID is ENSG00000105501"
+hpa,ensembl-mismatch,PRODH,PRODH,,1,ENSG00000277196,"HPA Ensembl ID not in HGNC; matched by symbol PRODH, whose HGNC Ensembl ID is ENSG00000100033"
+hpa,ensembl-mismatch,LINC02203,LINC02203,,1,ENSG00000280709,"HPA Ensembl ID not in HGNC; matched by symbol LINC02203, whose HGNC Ensembl ID is ENSG00000284988"
+hpa,ensembl-mismatch,MATR3,MATR3,,1,ENSG00000280987,"HPA Ensembl ID not in HGNC; matched by symbol MATR3, whose HGNC Ensembl ID is ENSG00000015479"
+hpa,ensembl-mismatch,TBCE,TBCE,,1,ENSG00000285053,"HPA Ensembl ID not in HGNC; matched by symbol TBCE, whose HGNC Ensembl ID is ENSG00000284770"
+hpa,ensembl-mismatch,POLR2J3,POLR2J3,,1,ENSG00000285437,"HPA Ensembl ID not in HGNC; matched by symbol POLR2J3, whose HGNC Ensembl ID is ENSG00000168255"
+hpa,ensembl-mismatch,HERC3,HERC3,,1,ENSG00000287542,"HPA Ensembl ID not in HGNC; matched by symbol HERC3, whose HGNC Ensembl ID is ENSG00000138641"
+deepcell-types,curated-mapping,CD16,FCGR3A|FCGR3B,,1,CD16,CD16a and CD16b; most antibodies detect both
+deepcell-types,curated-mapping,CD3,CD3E|CD3D|CD3G,,1,CD3,CD3 complex; most antibodies target CD3E
+deepcell-types,curated-mapping,CD8,CD8A|CD8B,,1,CD8,most CD8 antibodies target CD8A only
+deepcell-types,curated-mapping,HLA-Class-2,HLA-DRA|HLA-DRB1,,1,HLA-Class-2,MHC class II; HLA-DR only (HLA-DP/DQ and other DRB genes not listed)
+deepcell-types,curated-mapping,HLA-Class-1,HLA-A|HLA-B|HLA-C,,1,HLA-Class-1,MHC class I heavy chains; some pan-class-I antibodies bind B2M instead
+deepcell-types,curated-mapping,CK6,KRT6A|KRT6B|KRT6C,,1,CK6,antibodies typically cross-react with CK6 isoforms
+deepcell-types,curated-mapping,PanCK,,,1,PanCK,"pan-cytokeratin antibody cocktail; gene set depends on clone (e.g. AE1/AE3 detects KRT1-8,10,14-16,19 per OMAPs), so left unmapped"
+deepcell-types,curated-mapping,CD15,FUT4,,1,CD15,CD15 is the Lewis X carbohydrate epitope; FUT4 synthesizes it
+deepcell-types,curated-mapping,CD57,B3GAT1,,1,CD57,CD57 is the HNK-1 carbohydrate epitope; B3GAT1 synthesizes it
+deepcell-types,curated-mapping,CD66,CEACAM1|CEACAM3|CEACAM5|CEACAM6|CEACAM8,,1,CD66,CD66a-e (CEACAM family); antibody specificity unknown
+deepcell-types,curated-mapping,COLLAGENIV,COL4A1|COL4A2,,1,Col4,collagen IV; main alpha1/alpha2 chains listed
+deepcell-types,curated-mapping,CYTOKERATIN,,,1,PanCK,"pan-cytokeratin antibody cocktail; gene set depends on clone (e.g. AE1/AE3 detects KRT1-8,10,14-16,19 per OMAPs), so left unmapped"
+deepcell-types,curated-mapping,HLADR,HLA-DRA|HLA-DRB1,,1,HLA-Class-2,MHC class II; HLA-DR only (HLA-DP/DQ and other DRB genes not listed)
+deepcell-types,curated-mapping,NKG2G,KLRK1,,1,NKG2D,channel name NKG2G looks like a typo for NKG2D (as the YAML maps it); NKG2G is not a known gene/protein
+avr,wrong-id-likely,FUT4,FUT4,,3,HBM535.MDJX.574,"the OMAP map flags this antibody: suspected wrong target FUT4: SSEA-4 is a glycolipid antigen; FUT4 makes SSEA-1/Lewis X, not SSEA-4"
+avr,wrong-id-likely,CD74,CD74,HLA-DRA,2,HBM499.SJRM.454,"the OMAP map flags this antibody: suspected wrong target CD74: HLA-DR antibody; HLA-DR is HLA-DRA/HLA-DRB*, CD74 is the invariant chain"
+avr,wrong-id-likely,LGALS1,LGALS1,LGALS3,2,HBM897.HMPQ.777,"the OMAP map flags this antibody: suspected wrong target LGALS1: Mac-2/galectin-3 is LGALS3, not LGALS1"
+avr,wrong-id-likely,ACTA2,ACTA2,,1,HBM647.FTWR.758,"AVR HGNC ID HGNC:30672 (SYNPO) disagrees with target symbol ACTA2; the AVR PDF filename names ACTA2, so using ACTA2. AVR record should be corrected; AVR UniProt Q8N3V7 is not ACTA2's UniProt (P62736)"
+avr,wrong-id-likely,CD3D,CD3D,CD3E,1,HBM699.VFZG.554,the OMAP map flags this antibody: suspected wrong target CD3D: generic CD3 antibody; most CD3 antibodies bind CD3E
+avr,wrong-id-likely,CD3E,CD3E,,1,HBM679.HTDB.853,"AVR HGNC ID HGNC:1673 (CD3D) disagrees with target symbol CD3E; the AVR PDF filename names CD3E, so using CD3E. AVR record should be corrected; AVR UniProt P04234 is not CD3E's UniProt (P07766)"
+avr,wrong-id-likely,CD79A,CD79A,FOXP3,1,HBM726.SWCZ.584,"the OMAP map flags this antibody: antibody name mentions FOXP3 = FOXP3, but the OMAP says it detects CD79A"
+avr,wrong-id-likely,CD8A,CD8A,,1,HBM895.KZWB.896,"AVR HGNC ID HGNC:1707 (CD8B) disagrees with target symbol CD8A; the AVR PDF filename names CD8A, so using CD8A. AVR record should be corrected; AVR UniProt P10966 is not CD8A's UniProt (P01732)"
+avr,wrong-id-likely,CD8B,CD8B,CD8A,1,HBM959.ZTPB.429,"the OMAP map flags this antibody: antibody name mentions CD8 = CD8A, but the OMAP says it detects CD8B"
+avr,wrong-id-likely,CDC123,CDC123,IL3RA,1,HBM255.HJBS.322,"the OMAP map flags this antibody: antibody name mentions CD123 = IL3RA, but the OMAP says it detects CDC123"
+avr,wrong-id-likely,CDPF1,CDKN1A,,1,HBM295.HNXQ.654,"AVR target symbol CDPF1 disagrees with HGNC ID HGNC:1784; the AVR PDF filename (CDKN1A-CellDIVE_OMAP-22.pdf) does not name CDPF1, so using the HGNC ID (CDKN1A). AVR record should be corrected"
+avr,wrong-id-likely,CKAP4,CKAP4,,1,HBM286.CDVL.784,the OMAP map flags this antibody: suspected wrong target CKAP4: verify the antigen of this 'Plasma Cell' antibody
+avr,wrong-id-likely,CXCL13,CXCL13,,1,HBM943.PLHB.977,"AVR HGNC ID HGNC:10369 (RPL9) disagrees with target symbol CXCL13; the AVR PDF filename names CXCL13, so using CXCL13. AVR record should be corrected"
+avr,wrong-id-likely,CXXC1,SPP1,,1,HBM254.XHST.873,"AVR target symbol CXXC1 disagrees with HGNC ID HGNC:11255; the AVR PDF filename (SPP1_OMAP9.pdf) does not name CXXC1, so using the HGNC ID (SPP1). AVR record should be corrected"
+avr,wrong-id-likely,FAP,FAP,GFAP,1,HBM795.GTMD.325,"the OMAP map flags this antibody: antibody name mentions GFAP = GFAP, but the OMAP says it detects FAP"
+avr,wrong-id-likely,FBF1,ALB,,1,HBM766.DHBX.348,"AVR target symbol FBF1 disagrees with HGNC ID HGNC:399; the AVR PDF filename (ALB_SIMS_OMAP5.pdf) does not name FBF1, so using the HGNC ID (ALB). AVR record should be corrected"
+avr,wrong-id-likely,H3-4,H3-4,,1,HBM934.NPSP.963,the OMAP map flags this antibody: suspected wrong target H3-4: histone H3 is encoded by many genes; H3-4 alone may be too narrow
+avr,wrong-id-likely,MB,PVALB,,1,HBM363.BVMR.547,"AVR target symbol MB disagrees with HGNC ID HGNC:9704; the AVR PDF filename (PVALB-CellDIVE-OMAP-35.pdf) does not name MB, so using the HGNC ID (PVALB). AVR record should be corrected"
+avr,wrong-id-likely,MS4A1,MS4A1,CD3E,1,HBM765.QHXW.879,"the OMAP map flags this antibody: antibody name mentions CD3E = CD3E, but the OMAP says it detects MS4A1"
+avr,wrong-id-likely,MT-CO2,PTGS2,,1,HBM364.SVCR.835,"AVR target symbol MT-CO2 disagrees with HGNC ID HGNC:9605; the AVR PDF filename (COX2_CellDIVE_OMAP7.pdf) does not name MT-CO2, so using the HGNC ID (PTGS2). AVR record should be corrected; AVR UniProt Q6ZYK7 is not PTGS2's UniProt (P35354)"
+avr,wrong-id-likely,NANOS2,NOS2,,1,HBM494.QJZV.789,"AVR target symbol NANOS2 disagrees with HGNC ID HGNC:7873; the AVR PDF filename (NOS2_CellDIVE_OMAP7.pdf) does not name NANOS2, so using the HGNC ID (NOS2). AVR record should be corrected"
+avr,wrong-id-likely,NANOS3,NOS3,,1,HBM435.DJLP.898,"AVR target symbol NANOS3 disagrees with HGNC ID HGNC:7876; the AVR PDF filename (NOS3_CellDIVE_OMAP7.pdf) does not name NANOS3, so using the HGNC ID (NOS3). AVR record should be corrected"
+avr,wrong-id-likely,NPPC,CNP,,1,HBM699.BPBC.754,"AVR target symbol NPPC disagrees with HGNC ID HGNC:2158; the AVR PDF filename (CNP-CellDIVE-OMAP-35.pdf) does not name NPPC, so using the HGNC ID (CNP). AVR record should be corrected"
+avr,wrong-id-likely,PDCD1,TP53,,1,HBM742.HSST.474,"AVR target symbol PDCD1 disagrees with HGNC ID HGNC:11998; the AVR PDF filename (p53_AVR.pdf) does not name PDCD1, so using the HGNC ID (TP53). AVR record should be corrected; AVR marks this antibody as not recommended"
+avr,wrong-id-likely,PM20D1,CPS1,,1,HBM727.KTJN.353,"AVR target symbol PM20D1 disagrees with HGNC ID HGNC:2323; the AVR PDF filename (CPS1_MICS_OMAP-37.pdf) does not name PM20D1, so using the HGNC ID (CPS1). AVR record should be corrected"
+avr,wrong-id-likely,PM20D1,CPS1,,1,HBM422.WDCZ.439,"AVR target symbol PM20D1 disagrees with HGNC ID HGNC:2323; the AVR PDF filename (CPS1_SIMS_OMAP5.pdf) does not name PM20D1, so using the HGNC ID (CPS1). AVR record should be corrected"
+avr,wrong-id-likely,PODXL,PODXL,,1,HBM868.XBKW.244,"AVR HGNC ID HGNC:9958 (REN) disagrees with target symbol PODXL; the AVR PDF filename names PODXL, so using PODXL. AVR record should be corrected; AVR UniProt P00797 is not PODXL's UniProt (O00592)"
+avr,wrong-id-likely,PRG2,MBP,,1,HBM277.LJHC.937,"AVR target symbol PRG2 disagrees with HGNC ID HGNC:6925; the AVR PDF filename (MBP-CellDIVE-OMAP-35.pdf) does not name PRG2, so using the HGNC ID (MBP). AVR record should be corrected"
+avr,wrong-id-likely,SNAP25,SNAP25,CASP3,1,HBM756.KRGD.469,"the OMAP map flags this antibody: suspected wrong target SNAP25: active caspase-3 is CASP3, not SNAP25"
+avr,wrong-id-likely,SYNPO,SYNPO,,1,HBM342.GPNS.346,"AVR HGNC ID HGNC:12559 (UMOD) disagrees with target symbol SYNPO; the AVR PDF filename names SYNPO, so using SYNPO. AVR record should be corrected; AVR UniProt P07911 is not SYNPO's UniProt (Q8N3V7)"
+avr,wrong-id-likely,TINAGL1,ARG1,,1,HBM689.GVNQ.626,"AVR target symbol TINAGL1 disagrees with HGNC ID HGNC:663; the AVR PDF filename (ARG1_MICS_OMAP-37.pdf) does not name TINAGL1, so using the HGNC ID (ARG1). AVR record should be corrected"
+avr,wrong-id-likely,TINAGL1,ARG1,,1,HBM559.WKZF.759,"AVR target symbol TINAGL1 disagrees with HGNC ID HGNC:663; the AVR PDF filename (ARG1_SIMS_OMAP5.pdf) does not name TINAGL1, so using the HGNC ID (ARG1). AVR record should be corrected"
+avr,wrong-id-likely,TNC,TNC,TRD,1,HBM697.PKXM.792,"the OMAP map flags this antibody: suspected wrong target TNC: TCR delta is the TRD locus, not tenascin C"
+avr,wrong-id-likely,TNS1,TNS1,,1,HBM823.VQQN.969,"AVR HGNC ID HGNC:853 (ATP6V1B1) disagrees with target symbol TNS1; the AVR PDF filename names TNS1, so using TNS1. AVR record should be corrected; AVR UniProt P15313 is not TNS1's UniProt (Q9HBL0)"
+avr,wrong-id-likely,UCMA,GRP,,1,HBM876.DFVJ.592,"AVR target symbol UCMA disagrees with HGNC ID HGNC:4605; the AVR PDF filename (GRP_OMAP-25.pdf) does not name UCMA, so using the HGNC ID (GRP). AVR record should be corrected"
+avr,wrong-id-likely,UMOD,UMOD,,1,HBM686.MTLG.682,"AVR HGNC ID HGNC:11973 (TNS1) disagrees with target symbol UMOD; the AVR PDF filename names UMOD, so using UMOD. AVR record should be corrected; AVR UniProt Q9HBL0 is not UMOD's UniProt (P07911)"
+avr,wrong-id-likely,VIM,VIM,CLU,1,HBM886.WWJH.629,"the OMAP map flags this antibody: suspected wrong target VIM: Apolipoprotein J is clusterin (CLU), not vimentin"
+avr,uniprot-mismatch,CALB1,CALB1,,1,HBM975.THPH.255,AVR UniProt P12658 is not CALB1's UniProt (P05937)
+avr,uniprot-mismatch,PTPRC,PTPRC,,1,HBM437.TWGW.749,AVR UniProt PO8575 is not PTPRC's UniProt (P08575)
+avr,uniprot-mismatch,TP53,TP53,,1,HBM852.NPCR.598,AVR UniProt Q12888 is not TP53's UniProt (P04637)
+asctb,wrong-id-likely,S100,BID,S100B|S100P,277,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R22-BG1,label S100 is not a recognized name of BID (HGNC:1050); keeping BID; HGNC:1050 may be a truncated ID for S100B (HGNC:10500)|S100P (HGNC:10504)
+asctb,wrong-id-likely,SOX10,SOX10,,209,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R53-BG2,"source_concept HGNC:1119 is BST2, but label SOX10 is the approved symbol of HGNC:11190; using SOX10 (HGNC:1119 looks like a truncated HGNC:11190)"
+asctb,wrong-id-likely,CD2,CD2,,22,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R13-BP3,"source_concept HGNC:1695 is CD7, but label CD2 is the approved symbol of HGNC:1639; using CD2"
+asctb,wrong-id-likely,PECAM1,PECAM1,,4,https://purl.humanatlas.io/asct-b/heart/v1.7#R65-BG1,"source_concept HGNC:10001 is RGS5, but label PECAM1 is the approved symbol of HGNC:8823; using PECAM1"
+asctb,wrong-id-likely,GATA3,GATA3,,4,https://purl.humanatlas.io/asct-b/thymus/v1.5#R18-BG7,"source_concept HGNC:1699 is CD79B, but label GATA3 is the approved symbol of HGNC:4172; using GATA3"
+asctb,wrong-id-likely,PLIN1,PLIN1,,2,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R51-BG2,"source_concept HGNC:9077 is PLK1, but label PLIN1 is the approved symbol of HGNC:9076; using PLIN1"
+asctb,wrong-id-likely,RGS5,RGS5,,2,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R52-BG1,"source_concept HGNC:9999 is RGS3, but label RGS5 is the approved symbol of HGNC:10001; using RGS5"
+asctb,wrong-id-likely,MOG,MOG,,2,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R56-BG1,"source_concept HGNC:7199 is MOS, but label MOG is the approved symbol of HGNC:7197; using MOG"
+asctb,wrong-id-likely,ACTA2,ACTA2,,2,https://purl.humanatlas.io/asct-b/urinary-bladder/v1.0#R10-BG3,"source_concept HGNC:45169 is ACTA2-AS1, but label ACTA2 is the approved symbol of HGNC:130; using ACTA2"
+asctb,wrong-id-likely,HTR2C,HTR2C,,1,https://purl.humanatlas.io/asct-b/allen-brain/v1.9#R626-BG1,"source_concept HGNC:5293 is HTR2A, but label HTR2C is the approved symbol of HGNC:5295; using HTR2C"
+asctb,wrong-id-likely,VPREB1,VPREB1,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R1-BG5,"source_concept HGNC:12665 is VCL, but label VPREB1 is the approved symbol of HGNC:12709; using VPREB1"
+asctb,wrong-id-likely,IGHE,IGHE,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R5-BG9,"source_concept HGNC:5525 is IGHG1, but label IGHE is the approved symbol of HGNC:5522; using IGHE"
+asctb,wrong-id-likely,FOSL1,FOSL1,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R12-BG4,"source_concept HGNC:3797 is FOSB, but label FOSL1 is the approved symbol of HGNC:13718; using FOSL1"
+asctb,wrong-id-likely,HPGDS,HPGDS,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R20-BG1,"source_concept HGNC:5154 is HPGD, but label HPGDS is the approved symbol of HGNC:17890; using HPGDS"
+asctb,wrong-id-likely,CD34,CD34,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R22-BG6,"source_concept HGNC:4977 is HLF, but label CD34 is the approved symbol of HGNC:1662; using CD34"
+asctb,wrong-id-likely,SPINK2,SPINK2,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R22-BG9,"source_concept HGNC:11243 is SPIN1, but label SPINK2 is the approved symbol of HGNC:11245; using SPINK2"
+asctb,wrong-id-likely,C1QA,C1QA,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R25-BG7,"source_concept HGNC:1240 is SUCO, but label C1QA is the approved symbol of HGNC:1241; using C1QA"
+asctb,wrong-id-likely,CD1E,CD1E,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R25-BG8,"source_concept HGNC:1648 is CD24P3, but label CD1E is the approved symbol of HGNC:1638; using CD1E"
+asctb,wrong-id-likely,PTGES,PTGES,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R25-BG9,"source_concept HGNC:9596 is PTGER4, but label PTGES is the approved symbol of HGNC:9599; using PTGES"
+asctb,wrong-id-likely,HLA-DRA,HLA-DRA,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R27-BG3,"source_concept HGNC:1603 is CCR2, but label HLA-DRA is the approved symbol of HGNC:4947; using HLA-DRA"
+asctb,wrong-id-likely,ACP5,ACP5,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R29-BG1,"source_concept HGNC:125 is ACP3, but label ACP5 is the approved symbol of HGNC:124; using ACP5"
+asctb,wrong-id-likely,CTSK,CTSK,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R29-BG2,"source_concept HGNC:2535 is CTSH, but label CTSK is the approved symbol of HGNC:2536; using CTSK"
+asctb,wrong-id-likely,ATP6V0D2,ATP6V0D2,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R29-BG3,"source_concept HGNC:866 is ATP6V0A4, but label ATP6V0D2 is the approved symbol of HGNC:18266; using ATP6V0D2"
+asctb,wrong-id-likely,ELANE,ELANE,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R32-BG6,"source_concept HGNC:3308 is CELA1, but label ELANE is the approved symbol of HGNC:3309; using ELANE"
+asctb,wrong-id-likely,CTSG,CTSG,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R32-BG8,"source_concept HGNC:2545 is CTSS, but label CTSG is the approved symbol of HGNC:2532; using CTSG"
+asctb,wrong-id-likely,EMCN,EMCN,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R48-BG5,"source_concept HGNC:30550 is MARCHF6, but label EMCN is the approved symbol of HGNC:16041; using EMCN"
+asctb,wrong-id-likely,LYVE1,LYVE1,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R48-BG7,"source_concept HGNC:11371 is STAU2, but label LYVE1 is the approved symbol of HGNC:14687; using LYVE1"
+asctb,wrong-id-likely,PROX1,PROX1,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R48-BG8,"source_concept HGNC:9444 is PRKY, but label PROX1 is the approved symbol of HGNC:9459; using PROX1"
+asctb,wrong-id-likely,PDPN,PDPN,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R48-BG9,"source_concept HGNC:8598 is PANK1, but label PDPN is the approved symbol of HGNC:29602; using PDPN"
+asctb,wrong-id-likely,LEPR,LEPR,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R49-BG2,"source_concept HGNC:6553 is LEP, but label LEPR is the approved symbol of HGNC:6554; using LEPR"
+asctb,wrong-id-likely,BGLAP,BGLAP,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R50-BG3,"source_concept HGNC:1047 is BHMT, but label BGLAP is the approved symbol of HGNC:1043; using BGLAP"
+asctb,wrong-id-likely,IBSP,IBSP,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R50-BG6,"source_concept HGNC:5343 is ICA1, but label IBSP is the approved symbol of HGNC:5341; using IBSP"
+asctb,wrong-id-likely,SOST,SOST,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R50-BG7,"source_concept HGNC:11180 is SOD2, but label SOST is the approved symbol of HGNC:13771; using SOST"
+asctb,wrong-id-likely,LIPE,LIPE,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R51-BG3,"source_concept HGNC:6587 is LHFPL1, but label LIPE is the approved symbol of HGNC:6621; using LIPE"
+asctb,wrong-id-likely,MYH11,MYH11,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R53-BG3,"source_concept HGNC:7579 is MYH9, but label MYH11 is the approved symbol of HGNC:7569; using MYH11"
+asctb,wrong-id-likely,SOX9,SOX9,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R54-BG1,"source_concept HGNC:11198 is SOX12, but label SOX9 is the approved symbol of HGNC:11204; using SOX9"
+asctb,wrong-id-likely,MAG,MAG,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R56-BG2,"source_concept HGNC:6813 is MAGED1, but label MAG is the approved symbol of HGNC:6783; using MAG"
+asctb,wrong-id-likely,NPPA,NPPA,,1,https://purl.humanatlas.io/asct-b/heart/v1.7#R50-BG1,"source_concept HGNC:12403 is TTN, but label NPPA is the approved symbol of HGNC:7939; using NPPA"
+asctb,wrong-id-likely,CD7,CD7,,1,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R120-BG2,"source_concept HGNC:921 is B3GAT1, but label CD7 is the approved symbol of HGNC:1695; using CD7"
+asctb,wrong-id-likely,CFTR,CFTR,,1,https://purl.humanatlas.io/asct-b/liver/v1.5#R6-BG1,"source_concept HGNC:4806 is HAL, but label CFTR is the approved symbol of HGNC:1884; using CFTR"
+asctb,wrong-id-likely,PDGFRA,PDGFRA,,1,https://purl.humanatlas.io/asct-b/lung/v1.6#R99-BG5,"source_concept HGNC:8804 is PDGFRB, but label PDGFRA is the approved symbol of HGNC:8803; using PDGFRA"
+asctb,wrong-id-likely,FUT4,FUT4,,1,https://purl.humanatlas.io/asct-b/lung/v1.6#R121-BP2,"source_concept HGNC:1603 is CCR2, but label FUT4 is the approved symbol of HGNC:4015; using FUT4"
+asctb,wrong-id-likely,IQGAP2,IQGAP2,,1,https://purl.humanatlas.io/asct-b/spinal-cord/v1.1#R55-BG3,"source_concept HGNC:6112 is IRAK1, but label IQGAP2 is the approved symbol of HGNC:6111; using IQGAP2"
+asctb,wrong-id-likely,STK32B,STK32B,,1,https://purl.humanatlas.io/asct-b/spinal-cord/v1.1#R64-BG3,"source_concept HGNC:14271 is RASSF3, but label STK32B is the approved symbol of HGNC:14217; using STK32B"
+asctb,wrong-id-likely,UPK1A,UPK1A,,1,https://purl.humanatlas.io/asct-b/urinary-bladder/v1.0#R3-BG1,"source_concept HGNC:40603 is UPK1A-AS1, but label UPK1A is the approved symbol of HGNC:12577; using UPK1A"
+asctb,withdrawn-id,CD3,,,262,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R10-BG1,HGNC:1676 (CD3W) was withdrawn by HGNC
+asctb,withdrawn-id,HIF1A-AS3,HIF1A-AS1,,1,https://purl.humanatlas.io/asct-b/allen-brain/v1.9#R151-BG1,HGNC:54284 (HIF1A-AS3) was withdrawn and merged into HGNC:43014|HIF1A-AS1|Approved; matched by label (prev_symbol)
+asctb,withdrawn-id,CLEC4E,CLEC4E,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R10-BG9,HGNC:20501 is not a known HGNC ID; matched by label (symbol)
+asctb,withdrawn-id,CLEC10A,CLEC10A,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R26-BG7,HGNC:20504 (HIST2H3B) was withdrawn by HGNC; matched by label (symbol)
+asctb,withdrawn-id,AXL,AXL,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R27-BG7,HGNC:902 (AXA1) was withdrawn and merged into HGNC:15984|APTX|Approved; matched by label (symbol)
+asctb,withdrawn-id,MS4A3,MS4A3,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R30-BG6,HGNC:7303 (MRX69) was withdrawn by HGNC; matched by label (symbol)
+asctb,withdrawn-id,ADGRG1,ADGRG1,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R46-BG10,HGNC:3339 (EMWX) was withdrawn by HGNC; matched by label (symbol)
+asctb,withdrawn-id,DMP1,DMP1,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R50-BG8,HGNC:2920 (DLX7) was withdrawn and merged into HGNC:2917|DLX4|Approved; matched by label (symbol)
+asctb,withdrawn-id,MEPE,MEPE,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R50-BG9,HGNC:6958 (MCPH5) was withdrawn and merged into HGNC:19048|ASPM|Approved; matched by label (symbol)
+asctb,withdrawn-id,NG2,RNF5|CSPG4,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R52-BP1,HGNC:2461 (CSNU3) was withdrawn and merged into HGNC:11067|SLC7A9|Approved; matched by label (alias_symbol_multiple)
+asctb,ambiguous-alias,CD90,THY1,,18,https://purl.humanatlas.io/asct-b/uterus/v1.3#R41-BP2,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,CD56,NCAM1,,15,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R56-BP2,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,PDL1,CD274,,12,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R56-BP1,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,PGP9.5,UCHL1,,12,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R56-BP3,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,CD31,PECAM1,,10,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R219-BP1,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,CD117,KIT,,8,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R65-BP1,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,CGRP,S100A12|CALCA,,7,https://purl.humanatlas.io/asct-b/peripheral-nervous-system/v1.3#R1027-BP1,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol multiple; ambiguous alias: an expert should pick the right gene
+asctb,ambiguous-alias,p60,H3P7|ARHGEF5|SQSTM1,,4,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R1297-BG2,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol multiple; ambiguous alias: an expert should pick the right gene
+asctb,ambiguous-alias,p60,CHAF1B,,3,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R1193-BG2,"source_concept HGNC:1911 is CHAF1B, but label p60 is an alias symbol multiple of H3P7 (HGNC:43799)|ARHGEF5 (HGNC:13209)|SQSTM1 (HGNC:11280); keeping CHAF1B"
+asctb,ambiguous-alias,CD21,CR2,,3,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R58-BP1,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,CD138,SDC1,,3,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R59-BP1,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,CD25,IL2RA|ISG20,,3,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R61-BP3,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol multiple; ambiguous alias: an expert should pick the right gene
+asctb,ambiguous-alias,CD206,MRC1,,3,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R63-BP3,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,CD294,PTGDR2,,3,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R64-BP2,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,MCT,MCAT|SLC16A1,,3,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R65-BP2,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol multiple; ambiguous alias: an expert should pick the right gene
+asctb,ambiguous-alias,CD16,FCGR3A|FCGR3B,,3,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R66-BP2,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol multiple; ambiguous alias: an expert should pick the right gene
+asctb,ambiguous-alias,NKG2D,KLRK1,,3,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R67-BP4,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,CD123,IL3RA,,3,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R68-BP3,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,CD127,IL7R,,3,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R69-BP1,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,CD161,KLRB1,,3,https://purl.humanatlas.io/asct-b/small-intestine/v1.4#R69-BP3,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,langerin,CD207,,2,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R1298-BG2,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,RP11-197K6.1,PYDC2-AS1,,1,https://purl.humanatlas.io/asct-b/allen-brain/v1.9#R282-BG2,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,AC002066.1,CAV2-DT,,1,https://purl.humanatlas.io/asct-b/allen-brain/v1.9#R353-BG3,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,AC079135.1,GBX2-AS1,,1,https://purl.humanatlas.io/asct-b/allen-brain/v1.9#R496-BG3,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,RO,CALR,,1,https://purl.humanatlas.io/asct-b/allen-brain/v1.9#R611-BG5,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,TRP,TYRP1,,1,https://purl.humanatlas.io/asct-b/allen-brain/v1.9#R690-BG5,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by alias symbol
+asctb,ambiguous-alias,LY6A,LTBP2,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R48-BG10,"source_concept HGNC:6715 is LTBP2, but label LY6A is an alias symbol of LY6S (HGNC:54397); keeping LTBP2"
+asctb,ambiguous-alias,NRF2,NR2F2,,1,https://purl.humanatlas.io/asct-b/lung/v1.6#R94-BG7,"source_concept HGNC:7976 is NR2F2, but label NRF2 is an alias symbol multiple of GABPA (HGNC:4071)|NFE2L2 (HGNC:7782); keeping NR2F2"
+asctb,label-check,CD3-TCR,CD3D,,120,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R10-BG5,label CD3-TCR is not a recognized name of CD3D (HGNC:1673); keeping CD3D
+asctb,label-check,HLA-DR,CD74,,112,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R30-BG1,label HLA-DR is not a recognized name of CD74 (HGNC:1697); keeping CD74
+asctb,label-check,TCR alpha/beta,CD3D,,107,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R10-BP5,label TCR alpha/beta is not a recognized name of CD3D (HGNC:1673); keeping CD3D
+asctb,label-check,TCR gamma/delta,CD3D,,13,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R11-BP5,label TCR gamma/delta is not a recognized name of CD3D (HGNC:1673); keeping CD3D
+asctb,label-check,,CD8A,,13,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R11-BP6,biomarker has an empty label
+asctb,label-check,CD274/PDL1,BID,,13,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R22-BP1,label CD274/PDL1 is not a recognized name of BID (HGNC:1050); keeping BID
+asctb,label-check,HLA-DR+,CD74,,12,https://purl.humanatlas.io/asct-b/lymph-node/v1.4#R16-BP5,label HLA-DR+ is not a recognized name of CD74 (HGNC:1697); keeping CD74
+asctb,label-check,oviduct-specific glycoprotein-1,OVGP1,,12,https://purl.humanatlas.io/asct-b/ovary/v1.4#R9-BP1,label oviduct-specific glycoprotein-1 is not a recognized name of OVGP1 (HGNC:8524); keeping OVGP1
+asctb,label-check,CD57,CD7,,9,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R31-BP2,"source_concept HGNC:1695 is CD7, but label CD57 is an prev symbol of B3GAT1 (HGNC:921); keeping CD7"
+asctb,label-check,keratin 5/6,KRTAP5-6,,7,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R1193-BG1,label keratin 5/6 is not a recognized name of KRTAP5-6 (HGNC:23600); keeping KRTAP5-6
+asctb,label-check,Cytokeratin 1,KRT1,,6,https://purl.humanatlas.io/asct-b/lung/v1.6#R74-BP1,label Cytokeratin 1 is not a recognized name of KRT1 (HGNC:6412); keeping KRT1
+asctb,label-check,S100+,S100B,,6,https://purl.humanatlas.io/asct-b/spleen/v1.6#R2-BP3,label S100+ is not a recognized name of S100B (HGNC:10500); keeping S100B
+asctb,label-check,Plasma Cell,CKAP4,,5,https://purl.humanatlas.io/asct-b/palatine-tonsil/v1.2#R13-BP5,label Plasma Cell is not a recognized name of CKAP4 (HGNC:16991); keeping CKAP4
+asctb,label-check,"TH, NPY",TH,,5,https://purl.humanatlas.io/asct-b/peripheral-nervous-system/v1.3#R1024-BP1,"label TH, NPY is not a recognized name of TH (HGNC:11782); keeping TH"
+asctb,label-check,D2-40H+,PDPN,,5,https://purl.humanatlas.io/asct-b/spleen/v1.6#R49-BP2,label D2-40H+ is not a recognized name of PDPN (HGNC:29602); keeping PDPN
+asctb,label-check,S100,S100B,,3,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R1239-BG1,label S100 is not a recognized name of S100B (HGNC:10500); keeping S100B
+asctb,label-check,IgM+,FCAMR,,3,https://purl.humanatlas.io/asct-b/lymph-node/v1.4#R17-BP12,label IgM+ is not a recognized name of FCAMR (HGNC:24692); keeping FCAMR
+asctb,label-check,Epidermal membrane Antigen,MUC1,,3,https://purl.humanatlas.io/asct-b/skin/v1.7#R25-BP1,label Epidermal membrane Antigen is not a recognized name of MUC1 (HGNC:7508); keeping MUC1
+asctb,label-check,CCL21+,CR2,,3,https://purl.humanatlas.io/asct-b/spleen/v1.6#R77-BP1,label CCL21+ is not a recognized name of CR2 (HGNC:2336); keeping CR2
+asctb,label-check,Eosinophil Major Basic+,PRG2,,3,https://purl.humanatlas.io/asct-b/thymus/v1.5#R16-BP2,label Eosinophil Major Basic+ is not a recognized name of PRG2 (HGNC:9362); keeping PRG2
+asctb,label-check,Perilipin,PLK1,,2,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R51-BP1,label Perilipin is not a recognized name of PLK1 (HGNC:9077); keeping PLK1
+asctb,label-check,aquaporin 1,AQP1,,2,https://purl.humanatlas.io/asct-b/eye/v1.5#R1-BP1,label aquaporin 1 is not a recognized name of AQP1 (HGNC:633); keeping AQP1
+asctb,label-check,Na/K ATPasea2,ATP1A2,,2,https://purl.humanatlas.io/asct-b/eye/v1.5#R1-BP3,label Na/K ATPasea2 is not a recognized name of ATP1A2 (HGNC:800); keeping ATP1A2
+asctb,label-check,β-catenin,CTNNB1,,2,https://purl.humanatlas.io/asct-b/eye/v1.5#R4-BP4,label β-catenin is not a recognized name of CTNNB1 (HGNC:2514); keeping CTNNB1
+asctb,label-check,Integrin α2,ITGA2,,2,https://purl.humanatlas.io/asct-b/eye/v1.5#R4-BP5,label Integrin α2 is not a recognized name of ITGA2 (HGNC:6137); keeping ITGA2
+asctb,label-check,Integrin α3,ITGA3,,2,https://purl.humanatlas.io/asct-b/eye/v1.5#R4-BP6,label Integrin α3 is not a recognized name of ITGA3 (HGNC:6139); keeping ITGA3
+asctb,label-check,Integrin α6,ITGA6,,2,https://purl.humanatlas.io/asct-b/eye/v1.5#R4-BP7,label Integrin α6 is not a recognized name of ITGA6 (HGNC:6142); keeping ITGA6
+asctb,label-check,Integrin αv,ITGAV,,2,https://purl.humanatlas.io/asct-b/eye/v1.5#R4-BP8,label Integrin αv is not a recognized name of ITGAV (HGNC:6150); keeping ITGAV
+asctb,label-check,Aquaporin 0,MIP,,2,https://purl.humanatlas.io/asct-b/eye/v1.5#R20-BP1,label Aquaporin 0 is not a recognized name of MIP (HGNC:7103); keeping MIP
+asctb,label-check,vasoactive intestinal polypeptide,VIP,,2,https://purl.humanatlas.io/asct-b/eye/v1.5#R31-BP7,label vasoactive intestinal polypeptide is not a recognized name of VIP (HGNC:12693); keeping VIP
+asctb,label-check,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3,GNB3,,2,https://purl.humanatlas.io/asct-b/eye/v1.5#R48-BP1,label Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3 is not a recognized name of GNB3 (HGNC:4400); keeping GNB3
+asctb,label-check,cellular retinaldehyde-binding protein,RLBP1,,2,https://purl.humanatlas.io/asct-b/eye/v1.5#R58-BP1,label cellular retinaldehyde-binding protein is not a recognized name of RLBP1 (HGNC:10024); keeping RLBP1
+asctb,label-check,FCGRB,FCGR1BP,,2,https://purl.humanatlas.io/asct-b/lymph-node/v1.4#R16-BG3,label FCGRB is not a recognized name of FCGR1BP (HGNC:3614); keeping FCGR1BP
+asctb,label-check,RORC2+,RORC,,2,https://purl.humanatlas.io/asct-b/lymph-node/v1.4#R34-BP6,label RORC2+ is not a recognized name of RORC (HGNC:10260); keeping RORC
+asctb,label-check,CD57-,CD40LG,,2,https://purl.humanatlas.io/asct-b/lymph-node/v1.4#R39-BP5,label CD57- is not a recognized name of CD40LG (HGNC:11935); keeping CD40LG
+asctb,label-check,Factor XIIIa,F3,,2,https://purl.humanatlas.io/asct-b/skin/v1.7#R31-BP1,label Factor XIIIa is not a recognized name of F3 (HGNC:3541); keeping F3
+asctb,label-check,sialophorin/p43,SPN,,2,https://purl.humanatlas.io/asct-b/skin/v1.7#R47-BP2,label sialophorin/p43 is not a recognized name of SPN (HGNC:11249); keeping SPN
+asctb,label-check,neurofilament heavy pseudogene 1,NEFHP1,,2,https://purl.humanatlas.io/asct-b/skin/v1.7#R49-BP1,label neurofilament heavy pseudogene 1 is not a recognized name of NEFHP1 (HGNC:7738); keeping NEFHP1
+asctb,label-check,CD66+,CEACAM8,,2,https://purl.humanatlas.io/asct-b/spleen/v1.6#R40-BP2,label CD66+ is not a recognized name of CEACAM8 (HGNC:1820); keeping CEACAM8
+asctb,label-check,Elastase+,ELANE,,2,https://purl.humanatlas.io/asct-b/spleen/v1.6#R40-BP3,label Elastase+ is not a recognized name of ELANE (HGNC:3309); keeping ELANE
+asctb,label-check,Thymosin beta-4+,TMSB4X,,2,https://purl.humanatlas.io/asct-b/thymus/v1.5#R17-BP2,label Thymosin beta-4+ is not a recognized name of TMSB4X (HGNC:11881); keeping TMSB4X
+asctb,label-check,HAL-DQB1,HLA-DQB1,,2,https://purl.humanatlas.io/asct-b/thymus/v1.5#R48-BG7,label HAL-DQB1 is not a recognized name of HLA-DQB1 (HGNC:4944); keeping HLA-DQB1
+asctb,label-check,LYD,LY6D,,2,https://purl.humanatlas.io/asct-b/thymus/v1.5#R81-BG5,label LYD is not a recognized name of LY6D (HGNC:13348); keeping LY6D
+asctb,label-check,FLK1 (VEGFR2),KDR,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R48-BP6,label FLK1 (VEGFR2) is not a recognized name of KDR (HGNC:6307); keeping KDR
+asctb,label-check,SCF (Stem Cell Factor),KITLG,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R49-BP1,label SCF (Stem Cell Factor) is not a recognized name of KITLG (HGNC:6343); keeping KITLG
+asctb,label-check,PDGFR,PDGFRA,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R49-BP2,"source_concept HGNC:8803 is PDGFRA, but label PDGFR is an prev symbol of PDGFRB (HGNC:8804); keeping PDGFRA"
+asctb,label-check,Osteocalcin,BHMT,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R50-BP2,label Osteocalcin is not a recognized name of BHMT (HGNC:1047); keeping BHMT
+asctb,label-check,TNAP (Tissue-nonspecific alkaline phosphatase),ALPL,,1,https://purl.humanatlas.io/asct-b/bone-marrow/v1.6#R50-BP3,label TNAP (Tissue-nonspecific alkaline phosphatase) is not a recognized name of ALPL (HGNC:438); keeping ALPL
+asctb,label-check,α-enolase,ENO1,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R4-BP2,label α-enolase is not a recognized name of ENO1 (HGNC:3350); keeping ENO1
+asctb,label-check,Integrin β1,ITGB1,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R4-BP9,label Integrin β1 is not a recognized name of ITGB1 (HGNC:6153); keeping ITGB1
+asctb,label-check,Integrin β2,ITGB2,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R4-BP10,label Integrin β2 is not a recognized name of ITGB2 (HGNC:6155); keeping ITGB2
+asctb,label-check,Integrin β4,ITGB4,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R4-BP11,label Integrin β4 is not a recognized name of ITGB4 (HGNC:6158); keeping ITGB4
+asctb,label-check,Integrin β5,ITGB5,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R4-BP12,label Integrin β5 is not a recognized name of ITGB5 (HGNC:6160); keeping ITGB5
+asctb,label-check,cytokeratin 3,KRT3,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R8-BP2,label cytokeratin 3 is not a recognized name of KRT3 (HGNC:6440); keeping KRT3
+asctb,label-check,cytokeratin 12,KRT12,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R8-BP3,label cytokeratin 12 is not a recognized name of KRT12 (HGNC:6414); keeping KRT12
+asctb,label-check,connexin 43,GJA1,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R8-BP5,label connexin 43 is not a recognized name of GJA1 (HGNC:4274); keeping GJA1
+asctb,label-check,Integrin β1,ITGB1,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R17-BL1,label Integrin β1 is not a recognized name of ITGB1 (HGNC:6153); keeping ITGB1; biomarker type is lipids but it resolves to a gene
+asctb,label-check,Integrin β2,ITGB2,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R17-BL2,label Integrin β2 is not a recognized name of ITGB2 (HGNC:6155); keeping ITGB2; biomarker type is lipids but it resolves to a gene
+asctb,label-check,Integrin β4,ITGB4,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R17-BM1,label Integrin β4 is not a recognized name of ITGB4 (HGNC:6158); keeping ITGB4; biomarker type is metabolites but it resolves to a gene
+asctb,label-check,Connexin 43,GJA1,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R17-BP7,label Connexin 43 is not a recognized name of GJA1 (HGNC:4274); keeping GJA1
+asctb,label-check,connexin 46,GJC2,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R23-BP1,label connexin 46 is not a recognized name of GJC2 (HGNC:17494); keeping GJC2
+asctb,label-check,Fibrillin-2,KRT3,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R28-BP2,label Fibrillin-2 is not a recognized name of KRT3 (HGNC:6440); keeping KRT3
+asctb,label-check,Elastin microfibril interface located protein-1,EMILIN1,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R28-BP6,label Elastin microfibril interface located protein-1 is not a recognized name of EMILIN1 (HGNC:19880); keeping EMILIN1
+asctb,label-check,secretagogin,SCGN,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R30-BP2,label secretagogin is not a recognized name of SCGN (HGNC:16941); keeping SCGN
+asctb,label-check,glutamic acid decarboxylase 65,GAD2,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R31-BP1,label glutamic acid decarboxylase 65 is not a recognized name of GAD2 (HGNC:4093); keeping GAD2
+asctb,label-check,Cocaine- and amphetamine-regulated transcript protein,CARTPT,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R31-BP12,label Cocaine- and amphetamine-regulated transcript protein is not a recognized name of CARTPT (HGNC:24323); keeping CARTPT
+asctb,label-check,Vesicular glutamate transporter 3,SLC17A8,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R32-BP3,label Vesicular glutamate transporter 3 is not a recognized name of SLC17A8 (HGNC:20151); keeping SLC17A8
+asctb,label-check,nitric oxide synthase,ATF4P4,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R33-BP1,label nitric oxide synthase is not a recognized name of ATF4P4 (HGNC:787); keeping ATF4P4
+asctb,label-check,glycogen phosphorylase,PYGB,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R33-BP4,label glycogen phosphorylase is not a recognized name of PYGB (HGNC:9723); keeping PYGB
+asctb,label-check,Secretagogin,SCGN,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R40-BP1,label Secretagogin is not a recognized name of SCGN (HGNC:16941); keeping SCGN
+asctb,label-check,Arrestin-C,ARR3,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R51-BP2,label Arrestin-C is not a recognized name of ARR3 (HGNC:710); keeping ARR3
+asctb,label-check,tubulin,TUBB,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R55-BP1,label tubulin is not a recognized name of TUBB (HGNC:20778); keeping TUBB
+asctb,label-check,,DCN,,1,https://purl.humanatlas.io/asct-b/heart/v1.7#R148-BG3,biomarker has an empty label
+asctb,label-check,OSTP,SPP1,,1,https://purl.humanatlas.io/asct-b/kidney/v1.8#R19-BP2,label OSTP is not a recognized name of SPP1 (HGNC:11255); keeping SPP1
+asctb,label-check,DFA5,DEFA5,,1,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R4-BP1,label DFA5 is not a recognized name of DEFA5 (HGNC:2764); keeping DEFA5
+asctb,label-check,keratin 19,CHAF1B,,1,https://purl.humanatlas.io/asct-b/large-intestine/v1.5#R1237-BP2,label keratin 19 is not a recognized name of CHAF1B (HGNC:1911); keeping CHAF1B
+asctb,label-check,,GFAP,,1,https://purl.humanatlas.io/asct-b/liver/v1.5#R3-BP2,biomarker has an empty label
+asctb,label-check,,CYP2A7,,1,https://purl.humanatlas.io/asct-b/liver/v1.5#R6-BP2,biomarker has an empty label
+asctb,label-check,,CYP3A4,,1,https://purl.humanatlas.io/asct-b/liver/v1.5#R7-BP2,biomarker has an empty label
+asctb,label-check,E-Selectin,SELE,,1,https://purl.humanatlas.io/asct-b/liver/v1.5#R12-BP1,label E-Selectin is not a recognized name of SELE (HGNC:10718); keeping SELE
+asctb,label-check,Pal-E antigen,PLVAP,,1,https://purl.humanatlas.io/asct-b/liver/v1.5#R12-BP4,label Pal-E antigen is not a recognized name of PLVAP (HGNC:13635); keeping PLVAP
+asctb,label-check,alpha smooth muscle actin,ACTG1,,1,https://purl.humanatlas.io/asct-b/lung/v1.6#R99-BP1,label alpha smooth muscle actin is not a recognized name of ACTG1 (HGNC:144); keeping ACTG1
+asctb,label-check,EAR11,RNASE3,,1,https://purl.humanatlas.io/asct-b/lung/v1.6#R123-BG5,label EAR11 is not a recognized name of RNASE3 (HGNC:10046); keeping RNASE3
+asctb,label-check,SIRPACD172a,SIRPA,,1,https://purl.humanatlas.io/asct-b/lung/v1.6#R134-BG11,label SIRPACD172a is not a recognized name of SIRPA (HGNC:9662); keeping SIRPA
+asctb,label-check,FCER2A,FCER2,,1,https://purl.humanatlas.io/asct-b/lymph-node/v1.4#R20-BG3,label FCER2A is not a recognized name of FCER2 (HGNC:3612); keeping FCER2
+asctb,label-check,PNAd,NTAN1,,1,https://purl.humanatlas.io/asct-b/lymph-node/v1.4#R49-BP4,label PNAd is not a recognized name of NTAN1 (HGNC:29909); keeping NTAN1
+asctb,label-check,Smooth Actin Muscle+,ACTA2,,1,https://purl.humanatlas.io/asct-b/lymph-node/v1.4#R49-BP5,label Smooth Actin Muscle+ is not a recognized name of ACTA2 (HGNC:130); keeping ACTA2
+asctb,label-check,S100+,S100A12,,1,https://purl.humanatlas.io/asct-b/lymph-node/v1.4#R52-BP7,label S100+ is not a recognized name of S100A12 (HGNC:10489); keeping S100A12
+asctb,label-check,TCRgamma/delta+,TRG,,1,https://purl.humanatlas.io/asct-b/lymph-node/v1.4#R58-BP2,label TCRgamma/delta+ is not a recognized name of TRG (HGNC:12271); keeping TRG; HGNC record has no Ensembl gene ID (not a single gene)
+asctb,label-check,Pancreatic alpha-amylase,AMY2A,,1,https://purl.humanatlas.io/asct-b/pancreas/v1.4#R1-BG1,label Pancreatic alpha-amylase is not a recognized name of AMY2A (HGNC:477); keeping AMY2A
+asctb,label-check,Mucin 2,MUC2,,1,https://purl.humanatlas.io/asct-b/pancreas/v1.4#R9-BG1,label Mucin 2 is not a recognized name of MUC2 (HGNC:7512); keeping MUC2
+asctb,label-check,Lipase E,LIPE,,1,https://purl.humanatlas.io/asct-b/pancreas/v1.4#R32-BG1,label Lipase E is not a recognized name of LIPE (HGNC:6621); keeping LIPE
+asctb,label-check,Asc-type amino acid transporter 1,ASCC1,,1,https://purl.humanatlas.io/asct-b/pancreas/v1.4#R32-BP1,label Asc-type amino acid transporter 1 is not a recognized name of ASCC1 (HGNC:24268); keeping ASCC1
+asctb,label-check,Fibronectin,FNDC3A,,1,https://purl.humanatlas.io/asct-b/pancreas/v1.4#R34-BG1,label Fibronectin is not a recognized name of FNDC3A (HGNC:20296); keeping FNDC3A
+asctb,label-check,nNOS/VIP,NOS1,,1,https://purl.humanatlas.io/asct-b/peripheral-nervous-system/v1.3#R1201-BP1,label nNOS/VIP is not a recognized name of NOS1 (HGNC:7872); keeping NOS1
+asctb,label-check,nNOS/ChAT,NOS1,,1,https://purl.humanatlas.io/asct-b/peripheral-nervous-system/v1.3#R1202-BP1,label nNOS/ChAT is not a recognized name of NOS1 (HGNC:7872); keeping NOS1
+asctb,label-check,"TH, DBH",TH,,1,https://purl.humanatlas.io/asct-b/peripheral-nervous-system/v1.3#R1206-BP1,"label TH, DBH is not a recognized name of TH (HGNC:11782); keeping TH"
+asctb,label-check,"nNOS, VIP",NOS1,,1,https://purl.humanatlas.io/asct-b/peripheral-nervous-system/v1.3#R1209-BP1,"label nNOS, VIP is not a recognized name of NOS1 (HGNC:7872); keeping NOS1"
+asctb,label-check,"nNOS, VAChT",NOS1,,1,https://purl.humanatlas.io/asct-b/peripheral-nervous-system/v1.3#R1211-BP1,"label nNOS, VAChT is not a recognized name of NOS1 (HGNC:7872); keeping NOS1"
+asctb,label-check,Fc fragment of IgG receptor IIIa/CD16,FCGR3A,,1,https://purl.humanatlas.io/asct-b/skin/v1.7#R41-BP3,label Fc fragment of IgG receptor IIIa/CD16 is not a recognized name of FCGR3A (HGNC:3619); keeping FCGR3A
+asctb,label-check,calbindin 2/calretinin,CALB2,,1,https://purl.humanatlas.io/asct-b/skin/v1.7#R59-BP2,label calbindin 2/calretinin is not a recognized name of CALB2 (HGNC:1435); keeping CALB2
+asctb,label-check,CK8/18+,KRT8,,1,https://purl.humanatlas.io/asct-b/spleen/v1.6#R9-BP2,label CK8/18+ is not a recognized name of KRT8 (HGNC:6446); keeping KRT8
+asctb,label-check,Collagen XVII,COL17A1,,1,https://purl.humanatlas.io/asct-b/spleen/v1.6#R19-BP2,label Collagen XVII is not a recognized name of COL17A1 (HGNC:2194); keeping COL17A1
+asctb,label-check,Collagen XVIII,COL18A1,,1,https://purl.humanatlas.io/asct-b/spleen/v1.6#R19-BP3,label Collagen XVIII is not a recognized name of COL18A1 (HGNC:2195); keeping COL18A1
+asctb,label-check,Laminin,LAMB1,,1,https://purl.humanatlas.io/asct-b/spleen/v1.6#R19-BP4,label Laminin is not a recognized name of LAMB1 (HGNC:6486); keeping LAMB1
+asctb,label-check,Integrin a3+,ITGA3,,1,https://purl.humanatlas.io/asct-b/spleen/v1.6#R37-BP4,label Integrin a3+ is not a recognized name of ITGA3 (HGNC:6139); keeping ITGA3
+asctb,label-check,Integrin a4+,ITGA4,,1,https://purl.humanatlas.io/asct-b/spleen/v1.6#R37-BP5,label Integrin a4+ is not a recognized name of ITGA4 (HGNC:6140); keeping ITGA4
+asctb,label-check,Integrin a5+,ITGA5,,1,https://purl.humanatlas.io/asct-b/spleen/v1.6#R37-BP6,label Integrin a5+ is not a recognized name of ITGA5 (HGNC:6141); keeping ITGA5
+asctb,label-check,Integrin b1+,ITGB1,,1,https://purl.humanatlas.io/asct-b/spleen/v1.6#R37-BP7,label Integrin b1+ is not a recognized name of ITGB1 (HGNC:6153); keeping ITGB1
+asctb,label-check,CD11c+,FCGR3A,,1,https://purl.humanatlas.io/asct-b/spleen/v1.6#R45-BP2,label CD11c+ is not a recognized name of FCGR3A (HGNC:3619); keeping FCGR3A
+asctb,label-check,TCRgamma+,TRG,,1,https://purl.humanatlas.io/asct-b/spleen/v1.6#R120-BP2,label TCRgamma+ is not a recognized name of TRG (HGNC:12271); keeping TRG; HGNC record has no Ensembl gene ID (not a single gene)
+asctb,label-check,TCRdelta+,TRD,,1,https://purl.humanatlas.io/asct-b/spleen/v1.6#R120-BP3,label TCRdelta+ is not a recognized name of TRD (HGNC:12252); keeping TRD; HGNC record has no Ensembl gene ID (not a single gene)
+asctb,label-check,Thymosin alpha-1+,PTMA,,1,https://purl.humanatlas.io/asct-b/thymus/v1.5#R17-BP1,label Thymosin alpha-1+ is not a recognized name of PTMA (HGNC:9623); keeping PTMA
+asctb,label-check,CD218+,IL18R1,,1,https://purl.humanatlas.io/asct-b/thymus/v1.5#R66-BP5,label CD218+ is not a recognized name of IL18R1 (HGNC:5988); keeping IL18R1
+asctb,label-check,RORgt+,RORC,,1,https://purl.humanatlas.io/asct-b/thymus/v1.5#R66-BP7,label RORgt+ is not a recognized name of RORC (HGNC:10260); keeping RORC
+asctb,label-check,DCKL1+,DCLK1,,1,https://purl.humanatlas.io/asct-b/thymus/v1.5#R83-BP4,label DCKL1+ is not a recognized name of DCLK1 (HGNC:2700); keeping DCLK1
+asctb,label-check,EFNB4,EPHB4,,1,https://purl.humanatlas.io/asct-b/trachea/v1.1#R18-BG5,label EFNB4 is not a recognized name of EPHB4 (HGNC:3395); keeping EPHB4
+asctb,non-gene-type,keratin 19,KRT19,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R4-BM1,biomarker type is metabolites but it resolves to a gene
+asctb,non-gene-type,ITGB5,ITGB5,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R17-BM3,biomarker type is metabolites but it resolves to a gene
+asctb,non-gene-type,EGF-R,EGFR,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R17-BM5,biomarker type is metabolites but it resolves to a gene
+asctb,non-gene-type,ABCG2,ABCG2,,1,https://purl.humanatlas.io/asct-b/eye/v1.5#R17-BM10,ASCT+B has no ID for this biomarker (placeholder IRI); matched label by symbol; biomarker type is metabolites but it resolves to a gene
+omap,wrong-id-likely,CD3,CD3D,CD3E,3,https://purl.humanatlas.io/omap/4-skin-cell-dive/v1.4#AB_2631163-968854937577537,suspected wrong target CD3D: generic CD3 antibody; most CD3 antibodies bind CD3E
+omap,wrong-id-likely,CD8,CD8B,CD8A,2,https://purl.humanatlas.io/omap/4-skin-cell-dive/v1.4#AB_2075537-5566246085040294,"antibody name mentions CD8 = CD8A, but the OMAP says it detects CD8B"
+omap,wrong-id-likely,Recombinant Anti-Sodium Potassium ATPase antibody [EP1845Y] - BSA and Azide free,ATP1B3,ATP1A1,2,https://purl.humanatlas.io/omap/25-lung-codex/v1.1#AB_2890241-4991206407700233,suspected wrong target ATP1B3: clone EP1845Y is a Na/K-ATPase alpha-1 antibody (other OMAPs map it to ATP1A1)
+omap,wrong-id-likely,Anti-Hu CD21(AKYP0061)-BX032 - Atto 550 for PhenoCycler,CR1,CR2,2,https://purl.humanatlas.io/omap/29-mouth-mucosa-codex/v1.0#AB_3474900-8849399119468910,"antibody name mentions CD21 = CR2, but the OMAP says it detects CR1"
+omap,wrong-id-likely,Anti-Hu Mac2/Galectin-3(AKYP0067)-BX035—Atto 550 for PhenoCycler,LGALS1,LGALS3,2,https://purl.humanatlas.io/omap/29-mouth-mucosa-codex/v1.0#AB_3477119-7941024377663981,"suspected wrong target LGALS1: Mac-2/galectin-3 is LGALS3, not LGALS1"
+omap,wrong-id-likely,Anti-Hu Histone H3 Phospho (Ser28)(AKYP0060)-BX030 - Alexa Fluor™ 647 for PhenoC,H3-4,,2,https://purl.humanatlas.io/omap/29-mouth-mucosa-codex/v1.0#AB_3676530-8790531234041943,suspected wrong target H3-4: histone H3 is encoded by many genes; H3-4 alone may be too narrow
+omap,wrong-id-likely,SSEA4 antibody [MC813] - Embryonic Stem Cell Marker,FUT4,,2,https://purl.humanatlas.io/omap/31-fallopian-tube-codex/v1.0#AB_778073-2959382077549466,"suspected wrong target FUT4: SSEA-4 is a glycolipid antigen; FUT4 makes SSEA-1/Lewis X, not SSEA-4"
+omap,wrong-id-likely,Alexa Fluor® 532 CXCL13/BLC/BCA-1 Antibody,RPL9,CXCL13,1,https://purl.humanatlas.io/omap/1-human-lymph-node-ibex/v1.5#AB_2892755-7303721641202568,"antibody name mentions CXCL13 = CXCL13, but the OMAP says it detects RPL9"
+omap,wrong-id-likely,Purified anti-human HLA-DR (Maxpar(R) Ready),CD74,HLA-DRA,1,https://purl.humanatlas.io/omap/2-intestine-codex/v1.6#AB_2562826-1563639817251138,"suspected wrong target CD74: HLA-DR antibody; HLA-DR is HLA-DRA/HLA-DRB*, CD74 is the invariant chain"
+omap,wrong-id-likely,GFAP Monoclonal Antibody (2.2B10),FAP,GFAP,1,https://purl.humanatlas.io/omap/2-intestine-codex/v1.6#AB_2532994-7447354494050923,"antibody name mentions GFAP = GFAP, but the OMAP says it detects FAP"
+omap,wrong-id-likely,Apolipoprotein J  antibody [EPR2911],VIM,CLU,1,https://purl.humanatlas.io/omap/3-kidney-codex/v1.4#AB_10585132-5673842648060498,"suspected wrong target VIM: Apolipoprotein J is clusterin (CLU), not vimentin"
+omap,wrong-id-likely,Purified anti-human HLA-DR,CD74,HLA-DRA,1,https://purl.humanatlas.io/omap/8-placenta-full-term-imc/v1.2#AB_893582-7418960104699977,"suspected wrong target CD74: HLA-DR antibody; HLA-DR is HLA-DRA/HLA-DRB*, CD74 is the invariant chain"
+omap,wrong-id-likely,"FOXP3 Monoclonal Antibody (236A/E7), eFluor™ 570, eBioscience",CD79A,FOXP3,1,https://purl.humanatlas.io/omap/10-palatine-tonsil-mics/v1.2#AB_2573609-4210223477287807,"antibody name mentions FOXP3 = FOXP3, but the OMAP says it detects CD79A"
+omap,wrong-id-likely,"Plasma Cell Antibody, anti-human, FITC, REAfinity™",CKAP4,,1,https://purl.humanatlas.io/omap/10-palatine-tonsil-mics/v1.2#AB_2857381-7813537743519768,suspected wrong target CKAP4: verify the antigen of this 'Plasma Cell' antibody
+omap,wrong-id-likely,Alexa Fluor® 647 Anti-CD31 antibody [JC/70A],CALB1,PECAM1,1,https://purl.humanatlas.io/omap/14-kidney-cycif/v1.1#AB_2890260-3552689525788784,"antibody name mentions CD31 = PECAM1, but the OMAP says it detects CALB1"
+omap,wrong-id-likely,"anti-Synaptopodin/SYNPO mouse monoclonal, G1D4, supernatant",UMOD,SYNPO,1,https://purl.humanatlas.io/omap/14-kidney-cycif/v1.1#AB_2335879-1899993290773415,"antibody name mentions SYNPO = SYNPO, but the OMAP says it detects UMOD"
+omap,wrong-id-likely,Human Uromodulin Antibody,TNS1,UMOD,1,https://purl.humanatlas.io/omap/14-kidney-cycif/v1.1#AB_2212386-2930175879610450,suspected wrong target TNS1: uromodulin is UMOD (OMAP-14 targets of TNS1/UMOD/SYNPO/PODXL look shuffled)
+omap,wrong-id-likely,Anti-TNS1; Anti-TNS1 antibody produced in rabbit,ATP6V1B1,TNS1,1,https://purl.humanatlas.io/omap/14-kidney-cycif/v1.1#AB_10796111-6577957078482305,"antibody name mentions TNS1 = TNS1, but the OMAP says it detects ATP6V1B1"
+omap,wrong-id-likely,Recombinant Alexa Fluor® 488 Anti-PODXL antibody [EPR9518],REN,PODXL,1,https://purl.humanatlas.io/omap/14-kidney-cycif/v1.1#AB_3065225-2193601059949219,"antibody name mentions PODXL = PODXL, but the OMAP says it detects REN"
+omap,wrong-id-likely,TCR delta (H-41),TNC,TRD,1,https://purl.humanatlas.io/omap/15-intestine-codex/v1.1#AB_1130061-1591019669493299,"suspected wrong target TNC: TCR delta is the TRD locus, not tenascin C"
+omap,wrong-id-likely,PE anti-human CD123,CDC123,IL3RA,1,https://purl.humanatlas.io/omap/17-thymus-ibex/v1.1#AB_314580-8739490094644811,"antibody name mentions CD123 = IL3RA, but the OMAP says it detects CDC123"
+omap,wrong-id-likely,Human/Mouse Active Caspase-3 Antibody,SNAP25,CASP3,1,https://purl.humanatlas.io/omap/24-pancreas-cycif/v1.0#AB_2243952-3148658465324050,"suspected wrong target SNAP25: active caspase-3 is CASP3, not SNAP25"
+omap,wrong-id-likely,Anti-Hu CD3e(AKYP0062)-BX080—Alexa Fluor™ 647 for PhenoCycler,MS4A1,CD3E,1,https://purl.humanatlas.io/omap/32-uterus-codex/v1.0#AB_3094503-6812622372135827,"antibody name mentions CD3E = CD3E, but the OMAP says it detects MS4A1"
+omap,missing-target,PE anti-human TCR γ/δ,,,1,https://purl.humanatlas.io/omap/17-thymus-ibex/v1.1#AB_1089218-4865902574132544,no detects target (This monoclonal targets TCR gamma/delta); primary antibody with no target gene in the OMAP
